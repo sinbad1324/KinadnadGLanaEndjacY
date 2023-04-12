@@ -1,1 +1,630 @@
 
+local parent = game.CoreGui:FindFirstChild("SunHub"):FindFirstChild("Menu")
+if not parent then
+	print("sry")
+else
+
+	local ScrollingFrame1 = Instance.new("ScrollingFrame",parent)
+	ScrollingFrame1["Visible"] = false
+	ScrollingFrame1["AutoLocalize"] = false
+	ScrollingFrame1["Active"] = true
+	ScrollingFrame1["ScrollBarImageTransparency"] = 1
+	ScrollingFrame1["AnchorPoint"] = Vector2.new(1, 1)
+	ScrollingFrame1["ScrollBarImageColor3"] = Color3.new(0, 0, 0)
+	ScrollingFrame1["Name"] = "PlayerAndEsp"
+	ScrollingFrame1["Position"] = UDim2.new(1.00500011, 0, 1.00000012, 0)
+	ScrollingFrame1["CanvasSize"] = UDim2.new(0, 0, 2.29999995, 0)
+	ScrollingFrame1["BackgroundTransparency"] = 1
+	ScrollingFrame1["Size"] = UDim2.new(0.848339617, 0, 0.948934793, 0)
+	ScrollingFrame1["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----ScrollingFrame1----
+	--Frame2--
+	local Frame2 = Instance.new("Frame",ScrollingFrame1)
+	Frame2["Size"] = UDim2.new(0.994000018, 0, 1, 0)
+	Frame2["Name"] = "Player"
+	Frame2["BackgroundTransparency"] = 1
+	Frame2["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----Frame2----
+	--Frame3--
+	local Frame3 = Instance.new("Frame",Frame2)
+	Frame3["Size"] = UDim2.new(0.902273476, 0, 0.208074808, 0)
+	Frame3["Position"] = UDim2.new(0.0408337973, 0, 0.0457964353, 0)
+	Frame3["Name"] = "P1"
+	Frame3["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----Frame3----
+	--UICorner4--
+	local UICorner4 = Instance.new("UICorner",Frame3)
+	----UICorner4----
+	--TextLabel5--
+	local TextLabel5 = Instance.new("TextLabel",Frame3)
+	TextLabel5["TextWrapped"] = true
+	TextLabel5["TextColor3"] = Color3.new(1, 1, 1)
+	TextLabel5["Text"] = "ESP"
+	TextLabel5["Font"] = Enum.Font.SourceSansItalic
+	TextLabel5["BackgroundTransparency"] = 1
+	TextLabel5["Position"] = UDim2.new(0.00219085673, 0, -0.165375456, 0)
+	TextLabel5["TextXAlignment"] = Enum.TextXAlignment.Left
+	TextLabel5["Size"] = UDim2.new(0, 100, 0, 20)
+	TextLabel5["TextSize"] = 30
+	TextLabel5["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextLabel5----
+	--TextLabel6--
+	local TextLabel6 = Instance.new("TextLabel",Frame3)
+	TextLabel6["TextWrapped"] = true
+	TextLabel6["TextColor3"] = Color3.new(1, 1, 1)
+	TextLabel6["Text"] = "PlayerEsp"
+	TextLabel6["Font"] = Enum.Font.SourceSansItalic
+	TextLabel6["BackgroundTransparency"] = 1
+	TextLabel6["Position"] = UDim2.new(0.0481876247, 0, 0.135146946, 0)
+	TextLabel6["TextSize"] = 22
+	TextLabel6["Size"] = UDim2.new(0.275236785, 0, 0.121518023, 0)
+	TextLabel6["TextScaled"] = true
+	TextLabel6["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextLabel6----
+	--Frame7--
+	local Frame7 = Instance.new("Frame",Frame3)
+	Frame7["Size"] = UDim2.new(0, 77, 0, 35)
+	Frame7["Position"] = UDim2.new(0.806360245, 0, 0.112786405, 0)
+	Frame7["Name"] = "PlayerEsp"
+	Frame7["BackgroundColor3"] = Color3.new(0.278431, 0.278431, 0.278431)
+	----Frame7----
+	--UICorner8--
+	local UICorner8 = Instance.new("UICorner",Frame7)
+	UICorner8["CornerRadius"] = UDim.new(1, 0)
+	----UICorner8----
+	--TextButton9--
+	local TextButton9 = Instance.new("TextButton",Frame7)
+	TextButton9["Size"] = UDim2.new(0.337124884, 0, 0.800107598, 0)
+	TextButton9["Font"] = Enum.Font.SourceSansItalic
+	TextButton9["Name"] = "activordesc"
+	TextButton9["Position"] = UDim2.new(0.0840002298, 0, 0.0814287439, 0)
+	TextButton9["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton9["Text"] = ""
+	TextButton9["TextSize"] = 14
+	TextButton9["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton9----
+	--UICorner10--
+	local UICorner10 = Instance.new("UICorner",TextButton9)
+	UICorner10["CornerRadius"] = UDim.new(2, 0)
+	----UICorner10----
+	--UIStroke11--
+	local UIStroke11 = Instance.new("UIStroke",Frame3)
+	UIStroke11["Color"] = Color3.new(1, 1, 1)
+	UIStroke11["Thickness"] = 3.0999999046325684
+	----UIStroke11----
+	--UIGradient12--
+	local UIGradient12 = Instance.new("UIGradient",UIStroke11)
+	UIGradient12["Color"] = ColorSequence.new{
+		ColorSequenceKeypoint.new(0,Color3.new(0.168627,0.168627,0.211765)),
+		ColorSequenceKeypoint.new(1,Color3.new(0.14902,0.14902,0.188235))
+	}
+	----UIGradient12----
+	--UIGradient13--
+	local UIGradient13 = Instance.new("UIGradient",Frame3)
+	UIGradient13["Color"] = ColorSequence.new{
+		ColorSequenceKeypoint.new(0,Color3.new(0.137255,0.137255,0.172549)),
+		ColorSequenceKeypoint.new(1,Color3.new(0.168627,0.168627,0.211765))
+	}
+	----UIGradient13----
+	--TextLabel14--
+	local TextLabel14 = Instance.new("TextLabel",Frame3)
+	TextLabel14["TextWrapped"] = true
+	TextLabel14["TextColor3"] = Color3.new(1, 1, 1)
+	TextLabel14["Text"] = "FruitEsp"
+	TextLabel14["Font"] = Enum.Font.SourceSansItalic
+	TextLabel14["BackgroundTransparency"] = 1
+	TextLabel14["Position"] = UDim2.new(0.0481876209, 0, 0.465565711, 0)
+	TextLabel14["TextSize"] = 22
+	TextLabel14["Size"] = UDim2.new(0.275236785, 0, 0.121518023, 0)
+	TextLabel14["TextScaled"] = true
+	TextLabel14["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextLabel14----
+	--TextLabel15--
+	local TextLabel15 = Instance.new("TextLabel",Frame3)
+	TextLabel15["TextWrapped"] = true
+	TextLabel15["TextColor3"] = Color3.new(1, 1, 1)
+	TextLabel15["Text"] = "SeaBeast + Ship Esp"
+	TextLabel15["Font"] = Enum.Font.SourceSansItalic
+	TextLabel15["BackgroundTransparency"] = 1
+	TextLabel15["Position"] = UDim2.new(0.0591404065, 0, 0.707562566, 0)
+	TextLabel15["TextSize"] = 22
+	TextLabel15["Size"] = UDim2.new(0.275236785, 0, 0.121518023, 0)
+	TextLabel15["TextScaled"] = true
+	TextLabel15["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextLabel15----
+	--Frame16--
+	local Frame16 = Instance.new("Frame",Frame3)
+	Frame16["Size"] = UDim2.new(0, 77, 0, 35)
+	Frame16["Position"] = UDim2.new(0.806360245, 0, 0.443205208, 0)
+	Frame16["Name"] = "FruitEsp"
+	Frame16["BackgroundColor3"] = Color3.new(0.278431, 0.278431, 0.278431)
+	----Frame16----
+	--UICorner17--
+	local UICorner17 = Instance.new("UICorner",Frame16)
+	UICorner17["CornerRadius"] = UDim.new(1, 0)
+	----UICorner17----
+	--TextButton18--
+	local TextButton18 = Instance.new("TextButton",Frame16)
+	TextButton18["Size"] = UDim2.new(0.337124884, 0, 0.800107598, 0)
+	TextButton18["Font"] = Enum.Font.SourceSansItalic
+	TextButton18["Name"] = "activordesc"
+	TextButton18["Position"] = UDim2.new(0.0840002298, 0, 0.0814287439, 0)
+	TextButton18["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton18["Text"] = ""
+	TextButton18["TextSize"] = 14
+	TextButton18["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton18----
+	--UICorner19--
+	local UICorner19 = Instance.new("UICorner",TextButton18)
+	UICorner19["CornerRadius"] = UDim.new(2, 0)
+	----UICorner19----
+	--Frame20--
+	local Frame20 = Instance.new("Frame",Frame3)
+	Frame20["Size"] = UDim2.new(0, 77, 0, 35)
+	Frame20["Position"] = UDim2.new(0.806360245, 0, 0.759662628, 0)
+	Frame20["Name"] = "SeaBestEsp"
+	Frame20["BackgroundColor3"] = Color3.new(0.278431, 0.278431, 0.278431)
+	----Frame20----
+	--UICorner21--
+	local UICorner21 = Instance.new("UICorner",Frame20)
+	UICorner21["CornerRadius"] = UDim.new(1, 0)
+	----UICorner21----
+	--TextButton22--
+	local TextButton22 = Instance.new("TextButton",Frame20)
+	TextButton22["Size"] = UDim2.new(0.337124884, 0, 0.800107598, 0)
+	TextButton22["Font"] = Enum.Font.SourceSansItalic
+	TextButton22["Name"] = "activordesc"
+	TextButton22["Position"] = UDim2.new(0.0840002298, 0, 0.0814287439, 0)
+	TextButton22["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton22["Text"] = ""
+	TextButton22["TextSize"] = 14
+	TextButton22["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton22----
+	--UICorner23--
+	local UICorner23 = Instance.new("UICorner",TextButton22)
+	UICorner23["CornerRadius"] = UDim.new(2, 0)
+	----UICorner23----
+	--Frame24--
+	local Frame24 = Instance.new("Frame",Frame2)
+	Frame24["Size"] = UDim2.new(0.902273476, 0, 0.227760524, 0)
+	Frame24["Position"] = UDim2.new(0.0408337973, 0, 0.313720286, 0)
+	Frame24["Name"] = "P2"
+	Frame24["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----Frame24----
+	--UICorner25--
+	local UICorner25 = Instance.new("UICorner",Frame24)
+	----UICorner25----
+	--TextLabel26--
+	local TextLabel26 = Instance.new("TextLabel",Frame24)
+	TextLabel26["TextWrapped"] = true
+	TextLabel26["TextColor3"] = Color3.new(1, 1, 1)
+	TextLabel26["Text"] = "Camera"
+	TextLabel26["Font"] = Enum.Font.SourceSansItalic
+	TextLabel26["BackgroundTransparency"] = 1
+	TextLabel26["Position"] = UDim2.new(-0.00219025603, 0, -0.127859831, 0)
+	TextLabel26["TextXAlignment"] = Enum.TextXAlignment.Left
+	TextLabel26["Size"] = UDim2.new(0, 100, 0, 20)
+	TextLabel26["TextSize"] = 30
+	TextLabel26["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextLabel26----
+	--TextLabel27--
+	local TextLabel27 = Instance.new("TextLabel",Frame24)
+	TextLabel27["TextWrapped"] = true
+	TextLabel27["TextColor3"] = Color3.new(1, 1, 1)
+	TextLabel27["Text"] = "Spectacle to player"
+	TextLabel27["Font"] = Enum.Font.SourceSansItalic
+	TextLabel27["BackgroundTransparency"] = 1
+	TextLabel27["Position"] = UDim2.new(0.0394253992, 0, 0.29092738, 0)
+	TextLabel27["TextSize"] = 22
+	TextLabel27["Size"] = UDim2.new(0.294951797, 0, 0.155776411, 0)
+	TextLabel27["TextScaled"] = true
+	TextLabel27["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextLabel27----
+	--Frame28--
+	local Frame28 = Instance.new("Frame",Frame24)
+	Frame28["Size"] = UDim2.new(0, 77, 0, 35)
+	Frame28["Position"] = UDim2.new(0.806360245, 0, 0.115843616, 0)
+	Frame28["Name"] = "WhoLook"
+	Frame28["BackgroundColor3"] = Color3.new(0.278431, 0.278431, 0.278431)
+	----Frame28----
+	--UICorner29--
+	local UICorner29 = Instance.new("UICorner",Frame28)
+	UICorner29["CornerRadius"] = UDim.new(1, 0)
+	----UICorner29----
+	--TextButton30--
+	local TextButton30 = Instance.new("TextButton",Frame28)
+	TextButton30["Size"] = UDim2.new(0.337124884, 0, 0.771536171, 0)
+	TextButton30["Font"] = Enum.Font.SourceSansItalic
+	TextButton30["Name"] = "activordesc"
+	TextButton30["Position"] = UDim2.new(0.0839999989, 0, 0.109999999, 0)
+	TextButton30["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton30["Text"] = ""
+	TextButton30["TextSize"] = 14
+	TextButton30["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton30----
+	--UICorner31--
+	local UICorner31 = Instance.new("UICorner",TextButton30)
+	UICorner31["CornerRadius"] = UDim.new(2, 0)
+	----UICorner31----
+	--Frame32--
+	local Frame32 = Instance.new("Frame",Frame24)
+	Frame32["Size"] = UDim2.new(0, 77, 0, 35)
+	Frame32["Position"] = UDim2.new(0.806360185, 0, 0.717354894, 0)
+	Frame32["Name"] = "WhoButtonTP"
+	Frame32["BackgroundColor3"] = Color3.new(0.278431, 0.278431, 0.278431)
+	----Frame32----
+	--UICorner33--
+	local UICorner33 = Instance.new("UICorner",Frame32)
+	UICorner33["CornerRadius"] = UDim.new(1, 0)
+	----UICorner33----
+	--TextButton34--
+	local TextButton34 = Instance.new("TextButton",Frame32)
+	TextButton34["Size"] = UDim2.new(0.337124884, 0, 0.771536171, 0)
+	TextButton34["Font"] = Enum.Font.SourceSansItalic
+	TextButton34["Name"] = "activordesc"
+	TextButton34["Position"] = UDim2.new(0.0839999989, 0, 0.109999999, 0)
+	TextButton34["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton34["Text"] = ""
+	TextButton34["TextSize"] = 14
+	TextButton34["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton34----
+	--UICorner35--
+	local UICorner35 = Instance.new("UICorner",TextButton34)
+	UICorner35["CornerRadius"] = UDim.new(2, 0)
+	----UICorner35----
+	--TextLabel36--
+	local TextLabel36 = Instance.new("TextLabel",Frame24)
+	TextLabel36["TextWrapped"] = true
+	TextLabel36["TextColor3"] = Color3.new(1, 1, 1)
+	TextLabel36["Text"] = "PlayerTP"
+	TextLabel36["Font"] = Enum.Font.SourceSansItalic
+	TextLabel36["BackgroundTransparency"] = 1
+	TextLabel36["Position"] = UDim2.new(0.0284726173, 0, 0.737300396, 0)
+	TextLabel36["TextSize"] = 22
+	TextLabel36["Size"] = UDim2.new(0.264284015, 0, 0.15769954, 0)
+	TextLabel36["TextScaled"] = true
+	TextLabel36["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextLabel36----
+	--UIStroke37--
+	local UIStroke37 = Instance.new("UIStroke",Frame24)
+	UIStroke37["Color"] = Color3.new(1, 1, 1)
+	UIStroke37["Thickness"] = 3.0999999046325684
+	----UIStroke37----
+	--UIGradient38--
+	local UIGradient38 = Instance.new("UIGradient",UIStroke37)
+	UIGradient38["Color"] = ColorSequence.new{
+		ColorSequenceKeypoint.new(0,Color3.new(0.168627,0.168627,0.211765)),
+		ColorSequenceKeypoint.new(1,Color3.new(0.14902,0.14902,0.188235))
+	}
+	----UIGradient38----
+	--UIGradient39--
+	local UIGradient39 = Instance.new("UIGradient",Frame24)
+	UIGradient39["Color"] = ColorSequence.new{
+		ColorSequenceKeypoint.new(0,Color3.new(0.137255,0.137255,0.172549)),
+		ColorSequenceKeypoint.new(1,Color3.new(0.168627,0.168627,0.211765))
+	}
+	----UIGradient39----
+	--Frame40--
+	local Frame40 = Instance.new("Frame",Frame24)
+	Frame40["Name"] = "SelectPlayers"
+	Frame40["Position"] = UDim2.new(0.0284726191, 0, 0.451495707, 0)
+	Frame40["ZIndex"] = 2
+	Frame40["Size"] = UDim2.new(0, 350, 0, 35)
+	Frame40["BackgroundColor3"] = Color3.new(0.117647, 0.117647, 0.14902)
+	----Frame40----
+	--UICorner41--
+	local UICorner41 = Instance.new("UICorner",Frame40)
+	UICorner41["CornerRadius"] = UDim.new(0, 5)
+	----UICorner41----
+	--ImageLabel42--
+	local ImageLabel42 = Instance.new("ImageLabel",Frame40)
+	ImageLabel42["Image"] = "rbxassetid://12669165838"
+	ImageLabel42["BackgroundTransparency"] = 1
+	ImageLabel42["Position"] = UDim2.new(0.868000031, 0, 0.287342817, 0)
+	ImageLabel42["Size"] = UDim2.new(0.100000009, 0, 0.518657148, 0)
+	ImageLabel42["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----ImageLabel42----
+	--TextButton43--
+	local TextButton43 = Instance.new("TextButton",Frame40)
+	TextButton43["TextWrapped"] = true
+	TextButton43["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton43["Text"] = ""
+	TextButton43["Size"] = UDim2.new(1, 0, 1, 0)
+	TextButton43["TextSize"] = 23
+	TextButton43["Font"] = Enum.Font.SourceSansItalic
+	TextButton43["BackgroundTransparency"] = 1
+	TextButton43["TextXAlignment"] = Enum.TextXAlignment.Left
+	TextButton43["Name"] = "click"
+	TextButton43["Selected"] = true
+	TextButton43["TextScaled"] = true
+	TextButton43["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton43----
+	--TextLabel44--
+	local TextLabel44 = Instance.new("TextLabel",Frame40)
+	TextLabel44["TextWrapped"] = true
+	TextLabel44["TextColor3"] = Color3.new(0.956863, 0.956863, 0.956863)
+	TextLabel44["Text"] = "Select the Player"
+	TextLabel44["TextSize"] = 14
+	TextLabel44["Font"] = Enum.Font.SourceSans
+	TextLabel44["Name"] = "statsname"
+	TextLabel44["Position"] = UDim2.new(0, 0, 0.0255270489, 0)
+	TextLabel44["Size"] = UDim2.new(0.867999971, 0, 1, 0)
+	TextLabel44["BackgroundTransparency"] = 1
+	TextLabel44["TextScaled"] = true
+	TextLabel44["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextLabel44----
+	--Frame45--
+	local Frame45 = Instance.new("Frame",Frame40)
+	Frame45["BackgroundTransparency"] = 1
+	Frame45["Position"] = UDim2.new(0, 0, 0.977991462, 0)
+	Frame45["ClipsDescendants"] = true
+	Frame45["Size"] = UDim2.new(1, 0, 6.69368982, 0)
+	Frame45["Name"] = "liste"
+	Frame45["BackgroundColor3"] = Color3.new(0.117647, 0.117647, 0.14902)
+	----Frame45----
+	--ScrollingFrame46--
+	local ScrollingFrame46 = Instance.new("ScrollingFrame",Frame45)
+	ScrollingFrame46["ScrollBarImageColor3"] = Color3.new(0, 0, 0)
+	ScrollingFrame46["Active"] = true
+	ScrollingFrame46["ScrollBarImageTransparency"] = 1
+	ScrollingFrame46["ScrollBarThickness"] = 5
+	ScrollingFrame46["BackgroundTransparency"] = 1
+	ScrollingFrame46["Position"] = UDim2.new(-1.38933942e-07, 0, -5.42756737e-08, 0)
+	ScrollingFrame46["CanvasSize"] = UDim2.new(0, 0, 1.5, 0)
+	ScrollingFrame46["Size"] = UDim2.new(1.09099996, 0, 0, 0)
+	ScrollingFrame46["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----ScrollingFrame46----
+	--Frame47--
+	local Frame47 = Instance.new("Frame",ScrollingFrame46)
+	Frame47["Name"] = "Listeisland"
+	Frame47["Position"] = UDim2.new(0, 0, 0.00254239934, 0)
+	Frame47["ClipsDescendants"] = true
+	Frame47["Size"] = UDim2.new(0.913999975, 0, 1, 0)
+	Frame47["BackgroundColor3"] = Color3.new(0.117647, 0.117647, 0.14902)
+	----Frame47----
+	--TextButton48--
+	local TextButton48 = Instance.new("TextButton",Frame47)
+	TextButton48["TextWrapped"] = true
+	TextButton48["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton48["BorderColor3"] = Color3.new(0.105882, 0.164706, 0.207843)
+	TextButton48["Text"] = "E"
+	TextButton48["TextSize"] = 14
+	TextButton48["Font"] = Enum.Font.SourceSansItalic
+	TextButton48["Name"] = "Player"
+	TextButton48["Position"] = UDim2.new(0.104754299, 0, 0.413924098, 0)
+	TextButton48["BackgroundTransparency"] = 0.8999999761581421
+	TextButton48["Size"] = UDim2.new(0, 274, 0, 36)
+	TextButton48["TextScaled"] = true
+	TextButton48["BackgroundColor3"] = Color3.new(0.160784, 0.160784, 0.203922)
+	----TextButton48----
+	--UICorner49--
+	local UICorner49 = Instance.new("UICorner",Frame47)
+	UICorner49["CornerRadius"] = UDim.new(0, 5)
+	----UICorner49----
+	--UIListLayout50--
+	local UIListLayout50 = Instance.new("UIListLayout",Frame47)
+	UIListLayout50["HorizontalAlignment"] = Enum.HorizontalAlignment.Center
+	----UIListLayout50----
+	--UIStroke51--
+	local UIStroke51 = Instance.new("UIStroke",Frame40)
+	UIStroke51["Color"] = Color3.new(0.180392, 0.180392, 0.227451)
+	UIStroke51["Thickness"] = 2.200000047683716
+	----UIStroke51----
+	--Frame52--
+	local Frame52 = Instance.new("Frame",Frame2)
+	Frame52["Size"] = UDim2.new(0.902273476, 0, 0.213451535, 0)
+	Frame52["Position"] = UDim2.new(0.0408337973, 0, 0.617141962, 0)
+	Frame52["Name"] = "P3"
+	Frame52["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----Frame52----
+	--UICorner53--
+	local UICorner53 = Instance.new("UICorner",Frame52)
+	----UICorner53----
+	--TextLabel54--
+	local TextLabel54 = Instance.new("TextLabel",Frame52)
+	TextLabel54["TextWrapped"] = true
+	TextLabel54["TextColor3"] = Color3.new(1, 1, 1)
+	TextLabel54["Text"] = "Equipe"
+	TextLabel54["Font"] = Enum.Font.SourceSansItalic
+	TextLabel54["BackgroundTransparency"] = 1
+	TextLabel54["Position"] = UDim2.new(0.00219085673, 0, -0.150887713, 0)
+	TextLabel54["TextXAlignment"] = Enum.TextXAlignment.Left
+	TextLabel54["Size"] = UDim2.new(0, 100, 0, 20)
+	TextLabel54["TextSize"] = 30
+	TextLabel54["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextLabel54----
+	--TextLabel55--
+	local TextLabel55 = Instance.new("TextLabel",Frame52)
+	TextLabel55["TextWrapped"] = true
+	TextLabel55["TextColor3"] = Color3.new(1, 1, 1)
+	TextLabel55["Text"] = "AutoEquip"
+	TextLabel55["Font"] = Enum.Font.SourceSansItalic
+	TextLabel55["BackgroundTransparency"] = 1
+	TextLabel55["Position"] = UDim2.new(0.0394253992, 0, 0.206781656, 0)
+	TextLabel55["TextSize"] = 22
+	TextLabel55["Size"] = UDim2.new(0.264284015, 0, 0.214301854, 0)
+	TextLabel55["TextScaled"] = true
+	TextLabel55["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextLabel55----
+	--Frame56--
+	local Frame56 = Instance.new("Frame",Frame52)
+	Frame56["Size"] = UDim2.new(0, 77, 0, 35)
+	Frame56["Position"] = UDim2.new(0.804169655, 0, 0.123353153, 0)
+	Frame56["Name"] = "buttonEquipe"
+	Frame56["BackgroundColor3"] = Color3.new(0.278431, 0.278431, 0.278431)
+	----Frame56----
+	--TextButton57--
+	local TextButton57 = Instance.new("TextButton",Frame56)
+	TextButton57["Size"] = UDim2.new(0.337124884, 0, 0.771536171, 0)
+	TextButton57["Font"] = Enum.Font.SourceSansItalic
+	TextButton57["Name"] = "activordesc"
+	TextButton57["Position"] = UDim2.new(0.0839999989, 0, 0.109999999, 0)
+	TextButton57["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton57["Text"] = ""
+	TextButton57["TextSize"] = 14
+	TextButton57["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton57----
+	--UICorner58--
+	local UICorner58 = Instance.new("UICorner",TextButton57)
+	UICorner58["CornerRadius"] = UDim.new(2, 0)
+	----UICorner58----
+	--UICorner59--
+	local UICorner59 = Instance.new("UICorner",Frame56)
+	UICorner59["CornerRadius"] = UDim.new(1, 0)
+	----UICorner59----
+	--UIStroke60--
+	local UIStroke60 = Instance.new("UIStroke",Frame52)
+	UIStroke60["Color"] = Color3.new(1, 1, 1)
+	UIStroke60["Thickness"] = 3.0999999046325684
+	----UIStroke60----
+	--UIGradient61--
+	local UIGradient61 = Instance.new("UIGradient",UIStroke60)
+	UIGradient61["Color"] = ColorSequence.new{
+		ColorSequenceKeypoint.new(0,Color3.new(0.168627,0.168627,0.211765)),
+		ColorSequenceKeypoint.new(1,Color3.new(0.14902,0.14902,0.188235))
+	}
+	----UIGradient61----
+	--UIGradient62--
+	local UIGradient62 = Instance.new("UIGradient",Frame52)
+	UIGradient62["Color"] = ColorSequence.new{
+		ColorSequenceKeypoint.new(0,Color3.new(0.137255,0.137255,0.172549)),
+		ColorSequenceKeypoint.new(1,Color3.new(0.168627,0.168627,0.211765))
+	}
+	----UIGradient62----
+	--Frame63--
+	local Frame63 = Instance.new("Frame",Frame52)
+	Frame63["Name"] = "ScelectTool"
+	Frame63["Position"] = UDim2.new(0.0372348428, 0, 0.419739783, 0)
+	Frame63["ZIndex"] = 2
+	Frame63["Size"] = UDim2.new(0, 350, 0, 35)
+	Frame63["BackgroundColor3"] = Color3.new(0.117647, 0.117647, 0.14902)
+	----Frame63----
+	--UICorner64--
+	local UICorner64 = Instance.new("UICorner",Frame63)
+	UICorner64["CornerRadius"] = UDim.new(0, 5)
+	----UICorner64----
+	--ImageLabel65--
+	local ImageLabel65 = Instance.new("ImageLabel",Frame63)
+	ImageLabel65["Image"] = "rbxassetid://12669165838"
+	ImageLabel65["BackgroundTransparency"] = 1
+	ImageLabel65["Position"] = UDim2.new(0.868000031, 0, 0.287342817, 0)
+	ImageLabel65["Size"] = UDim2.new(0.100000009, 0, 0.518657148, 0)
+	ImageLabel65["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----ImageLabel65----
+	--TextButton66--
+	local TextButton66 = Instance.new("TextButton",Frame63)
+	TextButton66["TextWrapped"] = true
+	TextButton66["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton66["Text"] = ""
+	TextButton66["Size"] = UDim2.new(1, 0, 1, 0)
+	TextButton66["TextSize"] = 23
+	TextButton66["Font"] = Enum.Font.SourceSansItalic
+	TextButton66["BackgroundTransparency"] = 1
+	TextButton66["TextXAlignment"] = Enum.TextXAlignment.Left
+	TextButton66["Name"] = "click"
+	TextButton66["Selected"] = true
+	TextButton66["TextScaled"] = true
+	TextButton66["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton66----
+	--TextLabel67--
+	local TextLabel67 = Instance.new("TextLabel",Frame63)
+	TextLabel67["TextWrapped"] = true
+	TextLabel67["TextColor3"] = Color3.new(0.956863, 0.956863, 0.956863)
+	TextLabel67["Text"] = "Select the Tool"
+	TextLabel67["TextSize"] = 14
+	TextLabel67["Font"] = Enum.Font.SourceSans
+	TextLabel67["Name"] = "statsname"
+	TextLabel67["Position"] = UDim2.new(0, 0, 0.0255270489, 0)
+	TextLabel67["Size"] = UDim2.new(0.867999971, 0, 1, 0)
+	TextLabel67["BackgroundTransparency"] = 1
+	TextLabel67["TextScaled"] = true
+	TextLabel67["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextLabel67----
+	--Frame68--
+	local Frame68 = Instance.new("Frame",Frame63)
+	Frame68["BackgroundTransparency"] = 1
+	Frame68["Position"] = UDim2.new(0, 0, 0.977991462, 0)
+	Frame68["ClipsDescendants"] = true
+	Frame68["Size"] = UDim2.new(1, 0, 6.69368982, 0)
+	Frame68["Name"] = "liste"
+	Frame68["BackgroundColor3"] = Color3.new(0.117647, 0.117647, 0.14902)
+	----Frame68----
+	--ScrollingFrame69--
+	local ScrollingFrame69 = Instance.new("ScrollingFrame",Frame68)
+	ScrollingFrame69["ScrollBarImageColor3"] = Color3.new(0, 0, 0)
+	ScrollingFrame69["Active"] = true
+	ScrollingFrame69["ScrollBarImageTransparency"] = 1
+	ScrollingFrame69["ScrollBarThickness"] = 5
+	ScrollingFrame69["BackgroundTransparency"] = 1
+	ScrollingFrame69["Position"] = UDim2.new(-1.38933942e-07, 0, -5.42756737e-08, 0)
+	ScrollingFrame69["CanvasSize"] = UDim2.new(0, 0, 1.5, 0)
+	ScrollingFrame69["Size"] = UDim2.new(1.09099996, 0, 0, 0)
+	ScrollingFrame69["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----ScrollingFrame69----
+	--Frame70--
+	local Frame70 = Instance.new("Frame",ScrollingFrame69)
+	Frame70["Name"] = "Listeisland"
+	Frame70["Position"] = UDim2.new(0, 0, 0.00254239934, 0)
+	Frame70["ClipsDescendants"] = true
+	Frame70["Size"] = UDim2.new(0.913999975, 0, 1, 0)
+	Frame70["BackgroundColor3"] = Color3.new(0.117647, 0.117647, 0.14902)
+	----Frame70----
+	--TextButton71--
+	local TextButton71 = Instance.new("TextButton",Frame70)
+	TextButton71["TextWrapped"] = true
+	TextButton71["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton71["BorderColor3"] = Color3.new(0.105882, 0.164706, 0.207843)
+	TextButton71["Text"] = "E"
+	TextButton71["TextSize"] = 14
+	TextButton71["Font"] = Enum.Font.SourceSansItalic
+	TextButton71["Name"] = "Player"
+	TextButton71["Position"] = UDim2.new(0.104754299, 0, 0.413924098, 0)
+	TextButton71["BackgroundTransparency"] = 0.8999999761581421
+	TextButton71["Size"] = UDim2.new(0, 274, 0, 36)
+	TextButton71["TextScaled"] = true
+	TextButton71["BackgroundColor3"] = Color3.new(0.160784, 0.160784, 0.203922)
+	----TextButton71----
+	--UICorner72--
+	local UICorner72 = Instance.new("UICorner",Frame70)
+	UICorner72["CornerRadius"] = UDim.new(0, 5)
+	----UICorner72----
+	--UIListLayout73--
+	local UIListLayout73 = Instance.new("UIListLayout",Frame70)
+	UIListLayout73["HorizontalAlignment"] = Enum.HorizontalAlignment.Center
+	----UIListLayout73----
+	--UIStroke74--
+	local UIStroke74 = Instance.new("UIStroke",Frame63)
+	UIStroke74["Color"] = Color3.new(0.180392, 0.180392, 0.227451)
+	UIStroke74["Thickness"] = 2.200000047683716
+	----UIStroke74----
+	--Frame75--
+	local Frame75 = Instance.new("Frame",Frame2)
+	Frame75["Size"] = UDim2.new(0.902273476, 0, 0.0665781796, 0)
+	Frame75["Position"] = UDim2.new(0.0408337973, 0, 0.896329999, 0)
+	Frame75["Name"] = "Deco"
+	Frame75["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----Frame75----
+	--UICorner76--
+	local UICorner76 = Instance.new("UICorner",Frame75)
+	----UICorner76----
+	--UIStroke77--
+	local UIStroke77 = Instance.new("UIStroke",Frame75)
+	UIStroke77["Color"] = Color3.new(1, 1, 1)
+	UIStroke77["Thickness"] = 3.0999999046325684
+	----UIStroke77----
+	--UIGradient78--
+	local UIGradient78 = Instance.new("UIGradient",UIStroke77)
+	UIGradient78["Color"] = ColorSequence.new{
+		ColorSequenceKeypoint.new(0,Color3.new(0.168627,0.168627,0.211765)),
+		ColorSequenceKeypoint.new(1,Color3.new(0.14902,0.14902,0.188235))
+	}
+	----UIGradient78----
+	--UIGradient79--
+	local UIGradient79 = Instance.new("UIGradient",Frame75)
+	UIGradient79["Color"] = ColorSequence.new{
+		ColorSequenceKeypoint.new(0,Color3.new(0.137255,0.137255,0.172549)),
+		ColorSequenceKeypoint.new(1,Color3.new(0.168627,0.168627,0.211765))
+	}
+	----UIGradient79----
+
+end
