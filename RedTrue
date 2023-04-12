@@ -1,5 +1,5 @@
-
 --Frame1--
+local playergui =  game.Players.LocalPlayer.PlayerGui
 local parent = game.CoreGui:FindFirstChild("SunHub"):FindFirstChild("Menu")
 if not parent then
 	print("sry")
@@ -309,7 +309,7 @@ else
 		----UIGradient38----
 
 		end
-	if game:GetService("Workspace").Areas and game:GetService("Players")["MySun_Hub"].PlayerGui:FindFirstChild("ChooseMap") or game:GetService("Players")["MySun_Hub"].PlayerGui:FindFirstChild("GoldenArena GUI") and game:GetService("Players")["MySun_Hub"].Live and game:GetService("Players")["MySun_Hub"].PlayerScripts.ArenaScript then 
+	if game:GetService("Workspace").Areas and playergui:FindFirstChild("ChooseMap") or playergui:FindFirstChild("GoldenArena GUI") and game:GetService("Players").LocalPlayer.Live and game:GetService("Players").LocalPlayer.PlayerScripts.ArenaScript then 
 
 		local Frame1 = Instance.new("Frame",ScrollingFrame1)
 		Frame1["Size"] = UDim2.new(1, 0, 1, 0)
