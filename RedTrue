@@ -1,5 +1,5 @@
 --Frame1--
-local playergui =  Players.LocalPlayer.PlayerGui
+local playergui =  game.Players.LocalPlayer.PlayerGui
 local parent = game.CoreGui:FindFirstChild("SunHub"):FindFirstChild("Menu")
 if not parent then
 	print("sry")
