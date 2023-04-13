@@ -209,7 +209,7 @@ else
 	ScrollingFrame24["ScrollBarImageColor3"] = Color3.new(0, 0, 0)
 	ScrollingFrame24["Name"] = "SCF"
 	ScrollingFrame24["Position"] = UDim2.new(0, 0, 0.200000003, 0)
-	ScrollingFrame24["CanvasSize"] = UDim2.new(0, 0, 1.5, 0)
+	ScrollingFrame24["CanvasSize"] = UDim2.new(0, 0, 3, 0)
 	ScrollingFrame24["BackgroundTransparency"] = 1
 	ScrollingFrame24["Size"] = UDim2.new(1, 0, 1, 0)
 	ScrollingFrame24["BackgroundColor3"] = Color3.new(1, 1, 1)
@@ -231,7 +231,7 @@ else
 	TextButton27["TextWrapped"] = true
 	TextButton27["TextColor3"] = Color3.new(1, 1, 1)
 	TextButton27["BorderColor3"] = Color3.new(0.105882, 0.164706, 0.207843)
-	TextButton27["Text"] = "E"
+	TextButton27["Text"] = "Mob"
 	TextButton27["TextSize"] = 14
 	TextButton27["Font"] = Enum.Font.SourceSansItalic
 	TextButton27["Name"] = "Skills"
@@ -240,83 +240,7 @@ else
 	TextButton27["Size"] = UDim2.new(0, 274, 0, 36)
 	TextButton27["TextScaled"] = true
 	TextButton27["BackgroundColor3"] = Color3.new(0.160784, 0.160784, 0.203922)
-	----TextButton27----
-	--TextButton28--
-	local TextButton28 = Instance.new("TextButton",Frame25)
-	TextButton28["TextWrapped"] = true
-	TextButton28["TextColor3"] = Color3.new(1, 1, 1)
-	TextButton28["BorderColor3"] = Color3.new(0.105882, 0.164706, 0.207843)
-	TextButton28["Text"] = "F"
-	TextButton28["TextSize"] = 14
-	TextButton28["Font"] = Enum.Font.SourceSansItalic
-	TextButton28["Name"] = "Skills"
-	TextButton28["Position"] = UDim2.new(0.104754299, 0, 0.413924098, 0)
-	TextButton28["BackgroundTransparency"] = 0.8999999761581421
-	TextButton28["Size"] = UDim2.new(0, 274, 0, 36)
-	TextButton28["TextScaled"] = true
-	TextButton28["BackgroundColor3"] = Color3.new(0.160784, 0.160784, 0.203922)
-	----TextButton28----
-	--TextButton29--
-	local TextButton29 = Instance.new("TextButton",Frame25)
-	TextButton29["TextWrapped"] = true
-	TextButton29["TextColor3"] = Color3.new(1, 1, 1)
-	TextButton29["BorderColor3"] = Color3.new(0.105882, 0.164706, 0.207843)
-	TextButton29["Text"] = "V"
-	TextButton29["TextSize"] = 14
-	TextButton29["Font"] = Enum.Font.SourceSansItalic
-	TextButton29["Name"] = "Skills"
-	TextButton29["Position"] = UDim2.new(0.104754299, 0, 0.413924098, 0)
-	TextButton29["BackgroundTransparency"] = 0.8999999761581421
-	TextButton29["Size"] = UDim2.new(0, 274, 0, 36)
-	TextButton29["TextScaled"] = true
-	TextButton29["BackgroundColor3"] = Color3.new(0.160784, 0.160784, 0.203922)
-	----TextButton29----
-	--TextButton30--
-	local TextButton30 = Instance.new("TextButton",Frame25)
-	TextButton30["TextWrapped"] = true
-	TextButton30["TextColor3"] = Color3.new(1, 1, 1)
-	TextButton30["BorderColor3"] = Color3.new(0.105882, 0.164706, 0.207843)
-	TextButton30["Text"] = "Z"
-	TextButton30["TextSize"] = 14
-	TextButton30["Font"] = Enum.Font.SourceSansItalic
-	TextButton30["Name"] = "Skills"
-	TextButton30["Position"] = UDim2.new(0.104754299, 0, 0.413924098, 0)
-	TextButton30["BackgroundTransparency"] = 0.8999999761581421
-	TextButton30["Size"] = UDim2.new(0, 274, 0, 36)
-	TextButton30["TextScaled"] = true
-	TextButton30["BackgroundColor3"] = Color3.new(0.160784, 0.160784, 0.203922)
-	----TextButton30----
-	--TextButton31--
-	local TextButton31 = Instance.new("TextButton",Frame25)
-	TextButton31["TextWrapped"] = true
-	TextButton31["TextColor3"] = Color3.new(1, 1, 1)
-	TextButton31["BorderColor3"] = Color3.new(0.105882, 0.164706, 0.207843)
-	TextButton31["Text"] = "X"
-	TextButton31["TextSize"] = 14
-	TextButton31["Font"] = Enum.Font.SourceSansItalic
-	TextButton31["Name"] = "Skills"
-	TextButton31["Position"] = UDim2.new(0.104754299, 0, 0.413924098, 0)
-	TextButton31["BackgroundTransparency"] = 0.8999999761581421
-	TextButton31["Size"] = UDim2.new(0, 274, 0, 36)
-	TextButton31["TextScaled"] = true
-	TextButton31["BackgroundColor3"] = Color3.new(0.160784, 0.160784, 0.203922)
-	----TextButton31----
-	--TextButton32--
-	local TextButton32 = Instance.new("TextButton",Frame25)
-	TextButton32["TextWrapped"] = true
-	TextButton32["TextColor3"] = Color3.new(1, 1, 1)
-	TextButton32["BorderColor3"] = Color3.new(0.105882, 0.164706, 0.207843)
-	TextButton32["Text"] = "C"
-	TextButton32["TextSize"] = 14
-	TextButton32["Font"] = Enum.Font.SourceSansItalic
-	TextButton32["Name"] = "Skills"
-	TextButton32["Position"] = UDim2.new(0.104754299, 0, 0.413924098, 0)
-	TextButton32["BackgroundTransparency"] = 0.8999999761581421
-	TextButton32["Size"] = UDim2.new(0, 274, 0, 36)
-	TextButton32["TextScaled"] = true
-	TextButton32["BackgroundColor3"] = Color3.new(0.160784, 0.160784, 0.203922)
-	----TextButton32----
-	--Frame33--
+		--Frame33--
 	local Frame33 = Instance.new("Frame",Frame1)
 	Frame33["Size"] = UDim2.new(0.902273476, 0, 0.168895423, 0)
 	Frame33["Position"] = UDim2.new(0.0408337973, 0, 0.482824296, 0)
