@@ -19,7 +19,7 @@ else
 	--Frame2--
 	if game.PlaceId == 4520749081 or game.PlaceId == 6381829480 then
 	
-	local Frame1 = Instance.new("Frame",parent)
+	local Frame1 = Instance.new("Frame",ScrollingFrame1)
 	Frame1["Size"] = UDim2.new(0.994000018, 0, 1, 0)
 	Frame1["Name"] = "AutoFarm"
 	Frame1["BackgroundTransparency"] = 1
